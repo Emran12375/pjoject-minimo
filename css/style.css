@@ -1,0 +1,257 @@
+/* font-family: 'Playfair Display', serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 50px;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+nav{
+    width: 50%;
+}
+nav ul{list-style: none;display: flex;/* font-size: 19px; */justify-content: space-between;}
+nav ul li{
+
+font-size: 19px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #626262;
+font-family: 'Playfair Display', serif;
+}
+.banner{
+
+width: 90%;
+
+margin: auto;
+}
+.banner img{
+    
+width: 100%;
+}
+.photodairy-section{
+
+width: 80%;
+
+margin: auto;
+
+padding: 100px 0px;
+}
+.photodairy-section h5{
+
+color: #b4ad9e;
+
+font-size: 19px;
+
+margin-bottom: 30px;
+font-family: 'Ubuntu', sans-serif;
+}
+.photodairy-section h1{
+
+color: #626262;
+
+font-size: 40px;
+font-family: 'Playfair Display', serif;
+}
+.photodairy-section p{
+
+color: #626262;
+
+font-size: 19px;
+
+margin: 30px 0px;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle-content{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.lifestyle{
+
+width: 45%;
+
+margin-top: 50px;
+}
+.lifestyle img{
+
+width: 100%;
+}
+.lifestyle h5{margin-bottom: 15px;margin-top: 20px;}
+.lifestyle h1{
+
+font-size: 32px;
+}
+.lifestyle p{
+    font-size: 16px;
+margin: 20px 0px;
+}
+.signup{
+
+background: #f0f0f0;
+
+padding: 100px 0px;
+}
+.signup-content{
+
+width: 29%;
+
+margin: auto;
+
+text-align: center;
+
+position: relative;
+}
+.signup-content h1{
+
+font-size: 40px;
+
+font-weight: 500;
+
+color: #333333;
+font-family: 'Playfair Display', serif;
+
+margin: 72px 0px;
+color: #333333;
+}
+.signup-content input{
+    
+background: transparent;
+    
+border: none;
+    
+border-bottom: 1px solid black;
+    
+width: 100%;
+    
+padding: 10px;
+caret-color: black;
+}
+.signup-content input::placeholder{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+}
+.signup-content input:focus{
+    outline: none;
+}
+.icon{
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+}
+.icon img{
+    
+}
+.loadmore{
+
+height: 300px;
+
+text-align: center;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.loadmore button{
+    
+background: transparent;
+    
+border: none;
+    
+border: 1px solid black;
+    
+padding: 25px;
+    
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+}
+footer{
+
+background: #f0f0f0;
+
+height: 100px;
+
+display: flex;
+
+align-items: center;
+}
+.footer-content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.trams{
+
+width: 20%;
+}
+.trams ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.trams ul li{
+
+}
+.trams ul li a{
+
+text-decoration: none;
+
+color: #626262;
+}
+.social-media{
+
+width: 12%;
+}
+.social-media ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.social-media ul li{
+
+text-transform: capitalize;
+}
+.social-media ul li a{
+    
+color: #626262;
+}
+
+
+
